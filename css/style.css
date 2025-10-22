@@ -1,18 +1,16 @@
-@import url('./_reset.css');
-@import url('./_design-system.css');
-@import url('./_base.css');
-@import url('./_components.css');
-@import url('./_layout.css');
-@import url('./_navigation.css');
-@import url('./_pages.css');
+@import url('../css/_reset.css');
+@import url('../css/_design-system.css');
+@import url('../css/_base.css');
+@import url('../css/_components.css');
+@import url('../css/_layout.css');
+@import url('../css/_navigation.css');
+@import url('../css/_pages.css');
 
 /* Responsividade (Media Queries) */
-@import url('./_responsive.css');
+@import url('../css/_responsive.css');
 
 /*
  * Arquivo Principal do CSS.
- * Importa todos os módulos e o arquivo de responsividade.
- * Estrutura Modular CSS.
- * O comentário está DEPOIS dos @imports.
- * CORREÇÃO: Uso de prefixo './' em todos os @import para resolver 404 no GitHub Pages.
+ * CORREÇÃO EXTREMA: Uso de prefixo '../css/' em todos os @import.
+ * Se o problema é a resolução de caminho relativo, esta é a última alteração de caminho possível.
  */
