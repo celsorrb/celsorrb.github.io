@@ -1,12 +1,3 @@
-/*
- * Arquivo Principal do CSS.
- * O comentário está DEPOIS dos imports para evitar a falha da regra @import.
- */
-
-/* * Módulos 
- * CORREÇÃO FINAL: Usando prefixo './' para forçar o caminho relativo ao diretório 'css/',
- * eliminando ambiguidade de caminho no servidor Linux/GitHub Pages e resolvendo o 404.
- */
 @import url('./_reset.css');
 @import url('./_design-system.css');
 @import url('./_base.css');
@@ -17,3 +8,11 @@
 
 /* Responsividade (Media Queries) */
 @import url('./_responsive.css');
+
+/*
+ * Arquivo Principal do CSS.
+ * Importa todos os módulos e o arquivo de responsividade.
+ * Estrutura Modular CSS.
+ * O comentário está DEPOIS dos @imports.
+ * CORREÇÃO: Uso de prefixo './' em todos os @import para resolver 404 no GitHub Pages.
+ */
