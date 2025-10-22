@@ -1,10 +1,3 @@
-/*
- * Arquivo Principal do CSS.
- * Importa todos os módulos e o arquivo de responsividade.
- * Estrutura Modular CSS.
- */
-
-/* * Módulos - ESTES PRECISAM SER OS PRIMEIROS NO ARQUIVO */
 @import url('_reset.css');
 @import url('_design-system.css');
 @import url('_base.css');
@@ -15,3 +8,10 @@
 
 /* Responsividade (Media Queries) */
 @import url('_responsive.css');
+
+/* Aqui você pode adicionar o comentário original ou outros estilos que não sejam @import */
+/*
+ * Arquivo Principal do CSS.
+ * Importa todos os módulos e o arquivo de responsividade.
+ * Estrutura Modular CSS.
+ */
