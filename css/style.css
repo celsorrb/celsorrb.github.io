@@ -1,17 +1,18 @@
-@import url('_reset.css');
-@import url('_design-system.css');
-@import url('_base.css');
-@import url('_components.css');
-@import url('_layout.css');
-@import url('_navigation.css');
-@import url('_pages.css');
+@import url('./_reset.css');
+@import url('./_design-system.css');
+@import url('./_base.css');
+@import url('./_components.css');
+@import url('./_layout.css');
+@import url('./_navigation.css');
+@import url('./_pages.css');
 
 /* Responsividade (Media Queries) */
-@import url('_responsive.css');
+@import url('./_responsive.css');
 
 /*
  * Arquivo Principal do CSS.
  * Importa todos os módulos e o arquivo de responsividade.
  * Estrutura Modular CSS.
- * (O COMENTÁRIO AGORA ESTÁ DEPOIS DAS REGRAS @IMPORT)
+ * O COMENTÁRIO AGORA ESTÁ DEPOIS DAS REGRAS @IMPORT (Corrigido no push anterior)
+ * E os caminhos usam "./" (Ponto-Barra) para forçar o caminho relativo ao diretório atual.
  */
