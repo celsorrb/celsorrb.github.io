@@ -9,9 +9,9 @@
 /* Responsividade (Media Queries) */
 @import url('_responsive.css');
 
-/* Aqui você pode adicionar o comentário original ou outros estilos que não sejam @import */
 /*
  * Arquivo Principal do CSS.
  * Importa todos os módulos e o arquivo de responsividade.
  * Estrutura Modular CSS.
+ * (O COMENTÁRIO AGORA ESTÁ DEPOIS DAS REGRAS @IMPORT)
  */
