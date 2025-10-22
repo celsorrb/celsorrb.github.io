@@ -8,9 +8,3 @@
 
 /* Responsividade (Media Queries) */
 @import url('_responsive.css');
-
-/*
- * Arquivo Principal do CSS.
- * Retornando ao formato original (sem `./`)
- * Isso funcionará na raiz do Pages.
- */
