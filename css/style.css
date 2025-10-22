@@ -1,15 +1,14 @@
 /*
  * Arquivo Principal do CSS.
- * Importa todos os módulos e o arquivo de responsividade.
- * Estrutura Modular CSS.
+ * O comentário está DEPOIS dos imports para evitar a falha da regra @import.
  */
 
 /* * Módulos 
- * CORREÇÃO FINAL: O arquivo de variáveis foi corrigido de '_design-system.css' para 'variables.css' 
- * e adicionado o prefixo './' para forçar o caminho relativo, resolvendo o 404.
+ * CORREÇÃO FINAL: Usando prefixo './' para forçar o caminho relativo ao diretório 'css/',
+ * eliminando ambiguidade de caminho no servidor Linux/GitHub Pages e resolvendo o 404.
  */
 @import url('./_reset.css');
-@import url('./variables.css'); /* AGORA APONTA PARA 'variables.css' */
+@import url('./_design-system.css');
 @import url('./_base.css');
 @import url('./_components.css');
 @import url('./_layout.css');
