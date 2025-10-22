@@ -1,5 +1,15 @@
+/*
+ * Arquivo Principal do CSS.
+ * Importa todos os módulos e o arquivo de responsividade.
+ * Estrutura Modular CSS.
+ */
+
+/* * Módulos 
+ * CORREÇÃO FINAL: O arquivo de variáveis foi corrigido de '_design-system.css' para 'variables.css' 
+ * e adicionado o prefixo './' para forçar o caminho relativo, resolvendo o 404.
+ */
 @import url('./_reset.css');
-@import url('./_design-system.css');
+@import url('./variables.css'); /* AGORA APONTA PARA 'variables.css' */
 @import url('./_base.css');
 @import url('./_components.css');
 @import url('./_layout.css');
@@ -8,11 +18,3 @@
 
 /* Responsividade (Media Queries) */
 @import url('./_responsive.css');
-
-/*
- * Arquivo Principal do CSS.
- * Importa todos os módulos e o arquivo de responsividade.
- * Estrutura Modular CSS.
- * O COMENTÁRIO AGORA ESTÁ DEPOIS DAS REGRAS @IMPORT (Corrigido no push anterior)
- * E os caminhos usam "./" (Ponto-Barra) para forçar o caminho relativo ao diretório atual.
- */
