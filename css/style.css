@@ -1,9 +1,17 @@
-/* Este é um teste */
-body {
-    background-color: lightblue !important;
-    margin: 0;
-    padding: 0;
-}
-h1 {
-    color: red !important;
-}
+/*
+ * Arquivo Principal do CSS.
+ * Importa todos os módulos e o arquivo de responsividade.
+ * Estrutura Modular CSS.
+ */
+
+/* * Módulos - ESTES PRECISAM SER OS PRIMEIROS NO ARQUIVO */
+@import url('_reset.css');
+@import url('_design-system.css');
+@import url('_base.css');
+@import url('_components.css');
+@import url('_layout.css');
+@import url('_navigation.css');
+@import url('_pages.css');
+
+/* Responsividade (Media Queries) */
+@import url('_responsive.css');
