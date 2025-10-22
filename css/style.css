@@ -1,2 +1,9 @@
-/* Cores originais */
-:root { --cor-principal: #2a7ae4; --cor-primaria-dark: #1a4a99; }
+/* Este é um teste */
+body {
+    background-color: lightblue !important;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: red !important;
+}
